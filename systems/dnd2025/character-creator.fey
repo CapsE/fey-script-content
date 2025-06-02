@@ -1,0 +1,36 @@
+---
+cc: true
+---
+# Creating a Character
+
+First select a race.
+
+s[race][
+    Dwarf
+    Elf
+    Halfling
+    Human
+    Dragonborn
+    Gnome
+    Half-Elf
+    Half-Orc
+    Tiefling
+]
+
+:::if race === "Dwarf"
+    {{>character-creator/dwarf.fey}}
+:::
+
+:::if race === "Elf"
+    {{>character-creator/elf.fey}}
+:::
+
+:::if race === "Halfling"
+    {{>character-creator/halfling.fey}}
+:::
+
+:::if race === "Human"
+    {{>character-creator/human.fey}}
+:::
+
+

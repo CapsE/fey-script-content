@@ -33,4 +33,10 @@ s[race][
     {{>character-creator/human.fey}}
 :::
 
+:::if race === "Dragonborn"
+    {{>character-creator/dragonborn.fey}}
+:::
 
+:::if race === "Gnome"
+    {{>character-creator/gnome.fey}}
+:::
